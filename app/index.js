@@ -1,6 +1,6 @@
 // Firstly, get the File System, Path, Inquirer and something to handle Markdown.
 const fs = require("fs");
-const path = require('path');
+const path = require("path");
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
 
