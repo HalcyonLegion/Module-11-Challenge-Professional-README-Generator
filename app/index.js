@@ -1,3 +1,22 @@
-//Firstly, get Inquirer and the File System
-const inquirer = require('inquirer');
-const fs = require('fs');
+// Firstly, get the File System, Path, Inquirer and something to handle Markdown.
+const fs = require("fs");
+const path = require('path');
+const inquirer = require("inquirer");
+const generateMarkdown = require("./utils/generateMarkdown");
+
+// array of questions for user
+const questions = [
+
+];
+
+// function to write README file
+function writeToFile(fileName, data) {
+}
+
+// function to initialize program
+function init() {
+
+}
+
+// function call to initialize program
+init();
