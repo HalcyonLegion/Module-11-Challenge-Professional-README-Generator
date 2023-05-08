@@ -65,10 +65,14 @@ function writeToFile(fileName, data) {
     });
 }
 
-// function to initialize program
+// function to initialize program - generateMarkdown will have to return the data entered into the Array in the correct manner/order.
 function init() {
-
+    inquirer.prompt(questions).then((answers) => {
+        const fileName = 'README.md';
+        const content = generateMarkdown(answers);
+        writeToFile(fileName, content);
+    });
 }
 
-// function call to initialize program
+// function call to initialize program - this is fine.
 init();
