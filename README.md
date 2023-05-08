@@ -11,7 +11,7 @@ The README should follow more or less the same format as what I've been doing he
 This generator works in the commandline, therefore allowing for quick and easy README generation
 
 ## Installation
-Please visit this URL to see how the Application looks now: https://halcyonlegion.github.io/Module-11-Challenge-Professional-README-Generator/
+Please visit this URL for a Walkthrough Guide of the Application: https://drive.google.com/uc?id=1Ly68cxhz9nBlDKuvzkT43Zw7wUAbdZqL&export=download
 
 ## Usage
 
