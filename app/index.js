@@ -1,7 +1,7 @@
 // Firstly, get the File System, Path, Inquirer and something to handle Markdown.
+const inquirer = require("inquirer");
 const fs = require("fs");
 const path = require("path");
-const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
 
 // array of questions for the user, other bits like the questions section and the table of contents can be handled in the other JS file.
