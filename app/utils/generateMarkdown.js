@@ -1,5 +1,7 @@
 // function to generate markdown for README
 // Created a full test to check if this works as intended, it seems so. The array I initially assumed would be questions.title but it's actually data.title.
+
+// Where/What is the license badge??
 function generateMarkdown(data) {
     return `# ${data.title}
   
@@ -17,7 +19,11 @@ function generateMarkdown(data) {
   ## Installation
   ${data.installation}
 
-  
+  ## Usage
+  ${data.usage}
+
+  ## License
+  This project is licensed under the ${data.license} license.
 
   
   
